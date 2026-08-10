@@ -1,9 +1,15 @@
+import React from "react";
 
 export default function Logo() {
-    return (
-        <div className="logo p-0 font-bold text-[#F97316] bg-white font-mono  w-fit border-[#F97316] border-2">
-          <h1 className="text-[#1E3A8A] p-0.5 font-mono">PrimeLift Equipment</h1>
-          <h5 className="text-white bg-[#F97316] font-mono text-[12px] text-right -m-0.5 p-0.5">Rental</h5>
-        </div>
-    )
+  return (
+    <div className="inline-flex items-center rounded-lg overflow-hidden border border-white/20 shadow-sm select-none font-sans">
+      <div className="bg-[#1E3A8A] text-white font-extrabold text-sm sm:text-base px-3 py-1.5 tracking-tight flex items-center gap-1.5">
+        <span className="w-2 h-2 rounded-full bg-[#F97316] inline-block"></span>
+        PRIMELIFT
+      </div>
+      <div className="bg-[#F97316] text-white font-bold text-[10px] sm:text-xs px-2.5 py-2 tracking-wider uppercase">
+        Rentals
+      </div>
+    </div>
+  );
 }
