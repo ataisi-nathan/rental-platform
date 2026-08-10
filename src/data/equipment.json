@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "equipment": "Honda 6.5kVA Generator",
+    "category": "Generators",
+    "dailyPrice": "₦18,000",
+    "qty": 4,
+    "deposit": "₦50,000",
+    "status": "Available",
+    "image": "/images/equipment/honda-generator.jpg"
+  },
+  {
+    "id": 2,
+    "equipment": "CAT Mini Excavator",
+    "category": "Construction",
+    "dailyPrice": "₦120,000",
+    "qty": 2,
+    "deposit": "₦300,000",
+    "status": "Available",
+    "image": "/images/equipment/cat-mini-excavator.jpg"
+  },
+  {
+    "id": 3,
+    "equipment": "Concrete Mixer",
+    "category": "Construction",
+    "dailyPrice": "₦25,000",
+    "qty": 5,
+    "deposit": "₦60,000",
+    "status": "Available",
+    "image": "/images/equipment/concrete-mixer.jpg"
+  },
+  {
+    "id": 4,
+    "equipment": "Plate Compactor",
+    "category": "Construction",
+    "dailyPrice": "₦20,000",
+    "qty": 3,
+    "deposit": "₦50,000",
+    "status": "Available",
+    "image": "/images/equipment/plate-compactor.jpg"
+  },
+  {
+    "id": 5,
+    "equipment": "Scaffolding Set",
+    "category": "Construction",
+    "dailyPrice": "₦35,000",
+    "qty": 8,
+    "deposit": "₦100,000",
+    "status": "Available",
+    "image": "/images/equipment/scaffolding.jpg"
+  },
+  {
+    "id": 6,
+    "equipment": "Industrial Pressure Washer",
+    "category": "Cleaning",
+    "dailyPrice": "₦22,000",
+    "qty": 3,
+    "deposit": "₦60,000",
+    "status": "Available",
+    "image": "/images/equipment/industrial-pressure-washer.jpg"
+  },
+  {
+    "id": 7,
+    "equipment": "Rotary Floor Scrubber",
+    "category": "Cleaning",
+    "dailyPrice": "₦28,000",
+    "qty": 2,
+    "deposit": "₦80,000",
+    "status": "Available",
+    "image": "/images/equipment/rotary-floor-scrubber.jpg"
+  },
+  {
+    "id": 8,
+    "equipment": "Industrial Vacuum Cleaner",
+    "category": "Cleaning",
+    "dailyPrice": "₦12,000",
+    "qty": 5,
+    "deposit": "₦30,000",
+    "status": "Available",
+    "image": "/images/equipment/industrial-vacuum-cleaner.jpg"
+  },
+  {
+    "id": 9,
+    "equipment": "Electric Drill",
+    "category": "Power Tools",
+    "dailyPrice": "₦7,000",
+    "qty": 12,
+    "deposit": "₦15,000",
+    "status": "Available",
+    "image": "/images/equipment/electric-drill.jpg"
+  },
+  {
+    "id": 10,
+    "equipment": "Rotary Hammer Drill",
+    "category": "Power Tools",
+    "dailyPrice": "₦10,000",
+    "qty": 8,
+    "deposit": "₦20,000",
+    "status": "Available",
+    "image": "/images/equipment/rotary-hammer-drill.jpg"
+  },
+  {
+    "id": 11,
+    "equipment": "Circular Saw",
+    "category": "Power Tools",
+    "dailyPrice": "₦8,500",
+    "qty": 6,
+    "deposit": "₦20,000",
+    "status": "Available",
+    "image": "/images/equipment/circular-saw.jpg"
+  },
+  {
+    "id": 12,
+    "equipment": "Angle Grinder",
+    "category": "Power Tools",
+    "dailyPrice": "₦6,500",
+    "qty": 10,
+    "deposit": "₦15,000",
+    "status": "Available",
+    "image": "/images/equipment/angle-grinder.jpg"
+  },
+  {
+    "id": 13,
+    "equipment": "Lawn Mower",
+    "category": "Landscaping",
+    "dailyPrice": "₦15,000",
+    "qty": 4,
+    "deposit": "₦40,000",
+    "status": "Available",
+    "image": "/images/equipment/lawn-mower.jpg"
+  },
+  {
+    "id": 14,
+    "equipment": "Brush Cutter",
+    "category": "Landscaping",
+    "dailyPrice": "₦12,000",
+    "qty": 5,
+    "deposit": "₦30,000",
+    "status": "Available",
+    "image": "/images/equipment/brush-cutter.jpg"
+  },
+  {
+    "id": 15,
+    "equipment": "Hedge Trimmer",
+    "category": "Landscaping",
+    "dailyPrice": "₦10,000",
+    "qty": 4,
+    "deposit": "₦25,000",
+    "status": "Available",
+    "image": "/images/equipment/hedge-trimmer.jpg"
+  },
+  {
+    "id": 16,
+    "equipment": "Canopy Tent (6m × 6m)",
+    "category": "Event",
+    "dailyPrice": "₦30,000",
+    "qty": 10,
+    "deposit": "₦80,000",
+    "status": "Available",
+    "image": "/images/equipment/canopy-tent.jpg"
+  },
+  {
+    "id": 17,
+    "equipment": "Folding Chairs (50 pcs)",
+    "category": "Event",
+    "dailyPrice": "₦15,000",
+    "qty": 20,
+    "deposit": "₦20,000",
+    "status": "Available",
+    "image": "/images/equipment/folding-chairs.jpg"
+  },
+  {
+    "id": 18,
+    "equipment": "Folding Tables",
+    "category": "Event",
+    "dailyPrice": "₦10,000",
+    "qty": 15,
+    "deposit": "₦20,000",
+    "status": "Available",
+    "image": "/images/equipment/folding-tables.jpg"
+  },
+  {
+    "id": 19,
+    "equipment": "Portable Stage Platform",
+    "category": "Event",
+    "dailyPrice": "₦70,000",
+    "qty": 2,
+    "deposit": "₦200,000",
+    "status": "Available",
+    "image": "/images/equipment/portable-stage-platform.jpg"
+  },
+  {
+    "id": 20,
+    "equipment": "Safety Helmet",
+    "category": "Safety",
+    "dailyPrice": "₦2,000",
+    "qty": 100,
+    "deposit": "₦5,000",
+    "status": "Available",
+    "image": "/images/equipment/safety-helmet.jpg"
+  },
+  {
+    "id": 21,
+    "equipment": "Reflective Safety Vest",
+    "category": "Safety",
+    "dailyPrice": "₦1,500",
+    "qty": 150,
+    "deposit": "₦5,000",
+    "status": "Available",
+    "image": "/images/equipment/reflective-safety-vest.jpg"
+  }
+]

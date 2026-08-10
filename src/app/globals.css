@@ -128,3 +128,28 @@
     @apply font-sans;
   }
 }
+
+.banner {
+  border-radius: 5px;
+}
+.banner ul, footer ul {
+  list-style: disc;
+}
+.footer-top {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.login input {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+.dotted {
+  border-bottom: 1px dotted #1E3A8A;
+  width: fit-content;
+  padding: 0 5px;
+}
+.back {
+  border-radius: 50%;
+}
