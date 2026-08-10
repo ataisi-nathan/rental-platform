@@ -132,9 +132,6 @@
 .banner {
   border-radius: 5px;
 }
-.banner ul, footer ul {
-  list-style: disc;
-}
 .footer-top {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
