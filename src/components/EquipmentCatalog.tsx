@@ -165,12 +165,12 @@ export default function EquipmentCatalog() {
                     >
                       {isAvailable ? (
                         <>
-                          <Check className="w-3 h-3 stroke-[3]" />
+                          <Check className="w-3 h-3 stroke-3" />
                           <span>Available</span>
                         </>
                       ) : (
                         <>
-                          <AlertCircle className="w-3 h-3 stroke-[3]" />
+                          <AlertCircle className="w-3 h-3 stroke-3" />
                           <span>Reserved</span>
                         </>
                       )}
