@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import equipmentData from "@/data/equipment.json";
+import Image from "next/image";
 
 // Type definition for the equipment item
 export interface Equipment {
@@ -59,39 +60,53 @@ export default function EquipmentCatalog() {
         {filteredEquipment.map((item: Equipment) => (
           <div
             key={item.id}
-            className="flex flex-col justify-between bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow"
+            className="flex flex-col justify-between bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
           >
-            <div>
-              <div className="flex justify-between items-start mb-3">
-                <span className="text-xs font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md">
-                  {item.category}
-                </span>
-                <span
-                  className={`text-xs px-2 py-1 rounded-full font-medium ${
-                    item.status === "Available"
-                      ? "bg-green-100 text-green-800"
-                      : "bg-red-100 text-red-800"
-                  }`}
-                >
-                  {item.status}
-                </span>
-              </div>
-
-              <h2 className="text-lg font-semibold text-gray-900 mb-2">{item.equipment}</h2>
-
-              <div className="text-2xl font-bold text-gray-900 mb-4">
-                {item.dailyPrice} <span className="text-sm text-gray-500 font-normal">/ day</span>
-              </div>
+            {/* Local Image Rendering */}
+            <div className="relative w-full h-48 bg-gray-100">
+              <Image
+                src={item.image}
+                alt={item.equipment}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                className="object-cover"
+                priority={item.id <= 4}
+              />
             </div>
 
-            <div className="border-t border-gray-100 pt-3 space-y-1.5 text-sm text-gray-600">
-              <div className="flex justify-between">
-                <span>Quantity Available:</span>
-                <span className="font-semibold text-gray-800">{item.qty}</span>
+            <div className="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div className="flex justify-between items-start mb-3">
+                  <span className="text-xs font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md">
+                    {item.category}
+                  </span>
+                  <span
+                    className={`text-xs px-2 py-1 rounded-full font-medium ${
+                      item.status === "Available"
+                        ? "bg-green-100 text-green-800"
+                        : "bg-red-100 text-red-800"
+                    }`}
+                  >
+                    {item.status}
+                  </span>
+                </div>
+
+                <h2 className="text-lg font-semibold text-gray-900 mb-2">{item.equipment}</h2>
+
+                <div className="text-2xl font-bold text-gray-900 mb-4">
+                  {item.dailyPrice} <span className="text-sm text-gray-500 font-normal">/ day</span>
+                </div>
               </div>
-              <div className="flex justify-between">
-                <span>Required Deposit:</span>
-                <span className="font-semibold text-gray-800">{item.deposit}</span>
+
+              <div className="border-t border-gray-100 pt-3 space-y-1.5 text-sm text-gray-600">
+                <div className="flex justify-between">
+                  <span>Quantity Available:</span>
+                  <span className="font-semibold text-gray-800">{item.qty}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Required Deposit:</span>
+                  <span className="font-semibold text-gray-800">{item.deposit}</span>
+                </div>
               </div>
             </div>
           </div>

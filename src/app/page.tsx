@@ -101,7 +101,7 @@ export default function Home() {
             <EquipmentCatalog />
           </div>
 {/* Company Description */}
-          <div className="description bg-white ml-[-12.5%] mr-[-12.5%] mt-10 mb-10 pb-10 pt-10">
+          <div className="description w-fit bg-white ml-[10%] mr-[10%] mt-10 mb-10 pb-10 pt-10">
             <h2 className="text-4xl font-black pl-[10%]">PrimeLift is always ready when you are.</h2>
             <p className="pl-[10%] pr-[10%] pt-3">
               PrimeLift Equipment Rentals provides reliable construction, industrial, landscaping, and event equipment to individuals, contractors, and businesses. We focus on making equipment rental simple through transparent pricing, dependable equipment, and responsive customer service.
